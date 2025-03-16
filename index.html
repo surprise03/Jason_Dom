@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .container1{
+            width: 100vw;
+            /* height: 100vh; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .container2{
+            width: 70vw;
+            border:1px solid rgb(61, 61, 99);
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+        
+        .container1 p{
+            text-align: center;
+            padding: 20px;
+            
+
+        }
+       .item{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid yellow;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div>
+        
+        <input type="text" placeholder="NAME" id="name">
+        <br>
+        <input type="text" placeholder="Phone no" id="phone"><br>
+        <input type="text" placeholder="email" id="email">
+        <br>
+        
+        <input type="text" placeholder="city" id="city"><br>
+        <input type="text" placeholder="State " id="state">
+        <br>
+       <button onclick="addData()" class="button">Add message</button>
+       </div>
+     
+    </div>
+    <div class="container1" id="container1">
+        <div id="container2" class="container2">
+
+
+
+        </div>
+
+    </div> 
+
+
+
+    <script src="./js.js"></script>
+</body>
+</html>

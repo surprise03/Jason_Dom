@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+    border: 0px;
+    margin: 0px;
+   
+}
+.container {
+    background-image:url("./69396-hi-tech-computer-interface-4k-3840x2160-wallpaper.jpg");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container input{
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+.container div{
+    background-color: rgba(91, 121, 158, 0.616);
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px 2px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.container .button{
+    width: 100px;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.container .button:hover{
+    background-color: blueviolet;
+}
+
+.container1{
+    width: 100vw;
+    height: 100vh;
+}
